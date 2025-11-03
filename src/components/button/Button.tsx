@@ -86,7 +86,7 @@ export const Button: React.FC = () => {
         This Component:
         <ul>
           <li>Imports a record with styles created in the same file.</li>
-          <li>Uses ternary operator in styleX.create</li>
+          <li>Uses ternary operator in stylex.create</li>
         </ul>
       </div>
       <button

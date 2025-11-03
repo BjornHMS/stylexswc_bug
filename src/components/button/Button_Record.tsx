@@ -136,7 +136,7 @@ export const Button_Record: React.FC = () => {
         This Component:
         <ul>
           <li>Creates a record with styles created in the Button.tsx file.</li>
-          <li>Uses ternary operator in styleX.create</li>
+          <li>Uses ternary operator in stylex.create</li>
         </ul>
       </div>
       <button

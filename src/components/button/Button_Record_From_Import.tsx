@@ -98,7 +98,7 @@ export const Button_Record_From_Import: React.FC = () => {
         <ul>
           <li>Creates a record with styles imported from a stylex.ts file.</li>
           <li>Has the record as the first param in stylex.props</li>
-          <li>Uses ternary operator in styleX.create</li>
+          <li>Uses ternary operator in stylex.create</li>
         </ul>
       </div>
       <button

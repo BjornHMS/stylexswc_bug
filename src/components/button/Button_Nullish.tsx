@@ -87,7 +87,7 @@ export const Button_Nullish: React.FC = () => {
         This Component:
         <ul>
           <li>Imports a record with styles created in the same file.</li>
-          <li>Uses Nullish coalescing operator in styleX.create</li>
+          <li>Uses Nullish coalescing operator in stylex.create</li>
         </ul>
       </div>
       <button
