@@ -31,10 +31,7 @@ const s = stylex.create({
 
     borderWidth: 1,
     borderStyle: 'solid',
-    borderColor: {
-      default: `${BUTTON.stroke}`,
-      ':disabled': `${BUTTON.disabled_stroke}`,
-    },
+    borderColor: BUTTON.stroke,
 
     backgroundColor: {
       default: BUTTON.default,

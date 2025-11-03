@@ -2,6 +2,7 @@ import { BUTTON, BUTTON_PRIMARY, BUTTON_SECONDARY, buttonTheme } from 'styles/th
 import * as stylex from '@stylexjs/stylex';
 import { useCallback, useState } from 'react';
 import { typography } from 'styles/typography.stylex';
+import { BRAND } from 'styles/tokens.stylex';
 
 const s = stylex.create({
   button: (opt?: {
@@ -31,10 +32,7 @@ const s = stylex.create({
 
     borderWidth: 1,
     borderStyle: 'solid',
-    borderColor: {
-      default: `${BUTTON.stroke}`,
-      ':disabled': `${BUTTON.disabled_stroke}`,
-    },
+    borderColor: opt?.theme === 'primary' ? BUTTON.stroke : BRAND.primary50,
 
     backgroundColor: {
       default: BUTTON.default,
