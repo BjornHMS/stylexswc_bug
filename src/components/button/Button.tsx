@@ -1,4 +1,4 @@
-import { BUTTON, BUTTON_PRIMARY, BUTTON_SECONDARY, buttonTheme } from 'styles/themes/button.stylex';
+import { BUTTON, buttonTheme } from 'styles/themes/button.stylex';
 import * as stylex from '@stylexjs/stylex';
 import { useCallback, useState } from 'react';
 import { typography } from 'styles/typography.stylex';
@@ -31,10 +31,7 @@ const s = stylex.create({
 
     borderWidth: 1,
     borderStyle: 'solid',
-    borderColor: {
-      default: `${BUTTON.stroke}`,
-      ':disabled': `${BUTTON.disabled_stroke}`,
-    },
+    borderColor: BUTTON.stroke,
 
     backgroundColor: {
       default: BUTTON.default,

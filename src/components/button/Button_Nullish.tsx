@@ -1,4 +1,4 @@
-import { BUTTON, BUTTON_PRIMARY, BUTTON_SECONDARY, buttonTheme } from 'styles/themes/button.stylex';
+import { BUTTON, buttonTheme } from 'styles/themes/button.stylex';
 import * as stylex from '@stylexjs/stylex';
 import { useCallback, useState } from 'react';
 import { typography } from 'styles/typography.stylex';
